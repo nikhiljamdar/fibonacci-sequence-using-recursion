@@ -3,7 +3,7 @@ def fib(n):
         return n
     else:
         return fib(n-1)+fib(n-2)
-count=int(input("enter the limit :"))
+count=int(input("enter limit :"))
 if count<=0:
     print("enter number is greater than 0")
 else:
